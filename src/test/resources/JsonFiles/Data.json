@@ -1,0 +1,58 @@
+{
+  "employees": [
+    {
+      "firstName": "Purdy",
+      "lastName": "Gobalu",
+      "id": "463-01-1281",
+      "age": 17,
+      "isContractor": true
+    },
+    {
+      "firstName": "Ram",
+      "lastName": "Gobalu",
+      "id": "463-01-1282",
+      "age": 17,
+      "isContractor": true
+    },
+    {
+      "id": "383-36-1056",
+      "firstName": "Lakshmi",
+      "lastName": "Mohan",
+      "age": 34,
+      "contractor": false
+    }
+  ],
+  "students": [
+    {
+      "id": "834-05-9482",
+      "firstName": "Lakshmi",
+      "lastName": "Mohan",
+      "age": 34,
+      "dayScholar": false
+    },
+    {
+      "id": "054-48-0086",
+      "firstName": "Srinath",
+      "lastName": "Mohan",
+      "age": 34,
+      "dayScholar": false
+    }
+  ],
+  "players": [
+    {
+      "id": "190-61-6835",
+      "name": "Yuvraj",
+      "country": "India",
+      "sport": "Cricket",
+      "captain": false
+    }
+  ],
+  "persons": [
+    {
+      "id": "599-39-0843",
+      "firstName": "Srinath",
+      "lastName": "Mohan",
+      "age": 34
+    }
+  ]
+}
