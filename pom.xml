@@ -22,6 +22,8 @@
         <javafaker.version>1.0.2</javafaker.version>
         <assertj-core.version>3.23.1</assertj-core.version>
         <lombok.version>1.18.12</lombok.version>
+        <selenium.version>3.141.59</selenium.version>
+        <webdrivermanager.version>5.3.1</webdrivermanager.version>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
 
@@ -91,6 +93,19 @@
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>${selenium.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>${webdrivermanager.version}</version>
+        </dependency>
+
 
     </dependencies>
 </project>
